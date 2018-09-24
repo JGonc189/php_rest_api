@@ -7,6 +7,11 @@
     <title>Friends News Feed Test</title>
 </head>
 <body>
-    <?php echo '<h1>Hello, world!</h1>'; ?>
+    <?php 
+        include_once '../../config/Database.php';
+        include_once '../../models/Post.php'; 
+    ?>
+
+    <?php echo '<h1> Connected as' .$ '</h1>'; ?>
 </body>
 </html>
